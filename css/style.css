@@ -24,11 +24,11 @@ p {
     font-size: 16px;
 }
 
-.ol1 li {
+/* .ol1 li {
     list-style-type: none;
-}
+} */
 
-.contain1 {
+/* .contain1 {
     margin-left: -40px;
     margin-top: 6px;
     justify-content: space-between;
@@ -41,19 +41,20 @@ p {
     display: inline-block;
     flex-wrap: wrap;
     font-size: 14.5px;
-}
+} */
 .contain3 {
-    margin-left: -48px;
-    margin-top: 6px;
+    margin-left: -45px;
+
+    width: 100%;
     justify-content: space-between;
     display: flex;
     font-size: 16px;
 }
-.ol2 {
+/* .ol2 {
     display: flex;
     margin-left: -20px;
     margin-top: -9px;
-}
+} */
 .ol4 {
     display: inline-block;
     margin-top: -21px;
@@ -63,17 +64,17 @@ p {
     margin-left: 7px;
     margin-top: 5px;
 }
-.ol2 li {
+/* .ol2 li {
     margin-left: 26px;
-}
+} */
 
-.ol2 input {
+/* .ol2 input {
     width: 21px;
     height: 21px;
     border: 1px solid black;
     margin-left: 1.8px;
-}
-.ip1 {
+} */
+/* .ip1 {
     margin-left: 7px;
 }
 .ip12 {
@@ -83,8 +84,8 @@ p {
 .ip2 {
     margin-right: 50px;
     margin-top: -7px;
-}
-.ip22 {
+} */
+/* .ip22 {
     margin-right: 107px;
     margin-top: -7px;
 }
@@ -107,8 +108,8 @@ p {
     margin-left: -62px;
     list-style-type: none;
     display: flex;
-}
-.ip24 {
+} */
+/* .ip24 {
     margin-top: -5px;
     margin-right: -25px;
 }
@@ -119,8 +120,8 @@ p {
     display: flex;
     margin-left: 15px;
     margin-top: -7px;
-}
-.ip25 {
+} */
+/* .ip25 {
     width: 40px;
     height: 21px;
     margin-top: -5px;
@@ -133,19 +134,19 @@ p {
     margin-left: 3px;
     margin-top: -5px;
     margin-right: 8px;
-    /* margin: -5px 0px 3px 10px; */
+     margin: -5px 0px 3px 10px; 
     border: 1px solid black;
-}
+} */
 .li13 {
     margin-right: 3px;
 }
-.ip254 {
+/* .ip254 {
     width: 83px;
     height: 21px;
     margin-top: -5px;
     margin-right: 3px;
     border: 1px solid black;
-}
+} */
 .li5 {
     margin-right: 32px;
 }
@@ -154,11 +155,10 @@ p {
     flex-wrap: wrap;
     justify-content: space-around;
     font-size: 16px;
-    margin-left: -8px;
+    margin-left: -5px;
     margin-top: -14px;
-    /* border: 1px solid black; */
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
 }
 .box1 {
     display: flex;
@@ -166,7 +166,7 @@ p {
     margin-top: -13px;
 }
 .box2 {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: block;
     margin-right: -50px;
     word-wrap: wrap;
