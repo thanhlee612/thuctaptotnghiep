@@ -1,0 +1,155 @@
+.box {
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-top: 18px;
+}
+table,
+th,
+td {
+    /* border: 1px solid #000000; */
+    min-width: inherit;
+    min-width: 100%;
+    align-content: left;
+}
+.table input {
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 1.5px;
+    width: 19px;
+    height: 19px;
+}
+.th1 {
+    width: 368px;
+    text-align: left;
+}
+.th2 {
+    width: 102px;
+}
+.th3 {
+    width: 170px;
+}
+.th4 {
+    width: 48px;
+}
+
+.tr0 {
+    font-size: 16px;
+}
+.tr0 th {
+    text-align: left;
+}
+
+.tr2 input {
+    border: 1px solid black;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 19px;
+    height: 19px;
+}
+
+.tr2 ol {
+    list-style-type: none;
+    margin-bottom: 2px;
+    display: flex;
+    margin-top: -1px;
+    margin-left: 2px;
+    margin-bottom: -2px;
+}
+.tr2 .ip-tr2 {
+    margin-right: 50px;
+}
+
+.tr2 .li1-tr2 {
+    margin-left: -40px;
+    margin-top: 4px;
+}
+.tr2 .li2-tr2 {
+    margin-left: 60px;
+    margin-top: 4px;
+}
+.tr2 .li3-tr2 {
+    margin-top: 4px;
+}
+
+.tr6 input {
+    border: 1px solid black;
+    margin-right: 14px;
+    margin-top: -3px;
+    margin-left: 2px;
+    margin-bottom: -20px;
+    width: 19px;
+    height: 19px;
+}
+
+.ol-tr6 {
+    margin-top: 4px;
+    margin-bottom: 1px;
+    margin-left: 2px;
+    display: flex;
+}
+.tr6 .li-tr6 {
+    margin-left: -30px;
+}
+
+.tr7 input {
+    margin-left: 10px;
+    width: 40px;
+    height: 19px;
+    margin-right: -10px;
+}
+.tr7 .ip1-tr7 {
+    margin-left: 30px;
+}
+.tr7 .ip5-tr7 {
+    width: 82px;
+}
+
+.ol-tr11 {
+    display: flex;
+}
+
+.ol-tr11 input {
+    border: 1px solid black;
+    /* margin-right: 1px;
+    margin-top: 1px;
+    margin-left: 1px; */
+    width: 19px;
+    height: 19px;
+}
+
+.tr11 li {
+    margin-left: -20px;
+}
+.tr11 ol {
+    list-style-type: none;
+    margin-bottom: 2px;
+    display: flex;
+    margin-top: -1px;
+    margin-left: 2px;
+    margin-bottom: -2px;
+}
+.tr11 input {
+    border: 1px solid black;
+    margin-right: 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 19px;
+    height: 19px;
+}
+
+.tr11 .li1-tr11 {
+    margin-left: -42px;
+    margin-top: 4px;
+}
+.tr11 .li2-tr11 {
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.tr11 .li3-tr11 {
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.tr11 .ip-tr11 {
+    margin-right: -5px;
+}

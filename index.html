@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="Emulating real sheets of paper in web documents (using HTML and CSS)"/> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bệnh án ngoại trú</title>
+		<link rel="stylesheet" type="text/css" href="css/sheets-of-paper-a4.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style1.css" />
+	</head>
+	<body class="document">
+		<div class="page" contenteditable="true">
+			<div class="header">
+				<div class="header1">
+					<p class="p1">
+						Sở Y tế:...............................................
+					</p>
+					<p>
+						Bệnh viện:...........................................
+					</p>
+				</div>
+				<div class="header2">
+					<h2>BỆNH ÁN NGOẠI TRÚ</h2>
+					<p  class="p2">KHOA:............................................</p>
+				</div>
+				<div class="header3">
+					<p>Số ngoại trú:...........................</p>
+					<p>Số lưu trữ:..............................</p>
+				</div>
+			</div>
+	<!-- 
+			<div class="container">
+				<div class="contain1">			
+					<ol class="ol1">
+						<li><b>I. HÀNH CHÍNH:</b></li>									
+					</ol>							
+					<ol class="ol1">
+						<li>Tuổi</li>									
+					</ol>										
+				</div>
+
+			<div class="contain2">
+					<ol class="ol2">
+						<li>Họ và tên <i>(In hoa):</i>................................................................</li>
+						<li>Sinh ngày: <input/><input/><input/><input/><input/><input/><input/><input/> </li> 					
+						<div class="ip1"><input/><input/></div>																
+					</ol>
+					<ol class="ol2" start="3">
+						<li class="li1">Giới:</li>		
+							1. Nam <input class="ip2"/> 2. Nữ <input class="ip22"/>					
+						<li class="li2">Nghề nghiệp: ...............................................</li><input class="ip23"/><input class="ip23"/>		
+					</ol>
+					<ol class="ol2" start="5">
+						<li class="li2">Dân tộc: .................................................................</li><input class="ip23"/><input class="ip23"/><div class="ip12"></div>
+						<li class="li2">Ngoại kiều: ...................................................</li><input class="ip23"/><input class="ip23"/>
+					</ol>
+					<ol class="ol2" start="7">
+						<li>Địa chỉ: Số nhà.............. Thôn, phố...............................................Xã phường...............................................................</li>
+					</ol>
+					<ol class="ol2">
+						<li class="li3" style="list-style-type:none">Huyện (Q, Tx) ..............................................................</li><input class="ip23"/><input class="ip23"/>
+						<li class="li4" style="list-style-type:none">Tỉnh, thành phố................................................</li><input class="ip23"/><input class="ip23"/>	
+					</ol>
+					<ol class="ol2" start="8">
+						<li>Nơi làm việc: .....................................................</li>
+						<li>Đối tượng: </li>	
+						<ol class="ol3">
+							<li class="li5"><i>1. BHYT</i></li><input class="ip24"/>
+							<li class="li5"><i>2. Thu phí</i></li><input class="ip24"/>
+							<li class="li5"><i>3. Miễn</i></li><input class="ip24"/>
+							<li class="li5"><i>4. Khác</i></li><input class="ip24"/>
+						</ol>											
+					</ol>
+					<ol class="ol21" start="10">
+						<li class="li5">BHYT có giá trị từ ngày .......tháng......năm........... Số thẻ BHYT</li>
+						<input class="ip25"/><input class="ip25"/><input class="ip25"/><input class="ip25"/><input class="ip254"/>
+					</ol>
+					<ol class="ol21" start="11">
+						<li>Họ tên, địa chỉ người nhà khi cần báo tin: ..................................................................................................................</li>
+					</ol>
+					<ol class="ol2">
+						<li class="li3" style="list-style-type:none">..................................................................................................Điện thoại số ...................................................................</li>						
+					</ol>
+					<ol start="12" class="ol21">
+						<li>Đến khám bệnh lúc: ......... giờ ........ phút ngày ........ tháng ....... năm .........</li>
+					</ol>
+					<ol start="13" class="ol21">
+						<li class="li13">Chuẩn đoán của nơi giới thiệu: ........................................................................................</li>		
+						1. Y tế <input class="ip3"/> 2. Tự đến <input class="ip3"/>
+					</ol>
+				</div>
+			</div> -->
+
+
+			<div class="box">
+				<table class="table">
+					<tr class="tr0">
+						<th colspan="3">I. HÀNH CHÍNH:</th>
+						<th style="text-align: center; font-weight:normal;">Tuổi</th>
+					</tr>
+					<tr class="tr1">					
+						<td class="th1">1. Họ và tên <i>(In hoa): </i>.........................................................</td>
+						<td class="th2">2. Sinh ngày</td>
+						<td class="th3"><input /><input/><input/><input/><input/><input/><input/><input/></td>
+						<td class="th4"><input/><input/></td>
+					</tr>
+					<tr class="tr2">
+						<!-- <td>3. Giới  <label>1. Nam<input class="ip-tr2" type="checkbox"/> 2. Nữ<input type="checkbox"/></td> -->
+							<td> 
+							<ol class="ol-tr2">
+								<li class="li1-tr2">3. Giới </li>
+								<li class="li2-tr2">1. Nam</li><input class="ip-tr2" type="checkbox"/>
+								<li  class="li3-tr2">2. Nữ</li><input class="ip-tr2" type="checkbox"/>
+							</ol>
+							</td>
+						<td>4. Nghề nghiệp: </td>
+						<td>.............................................</td>
+						<td><input/><input/></td>
+					</tr>				
+					<tr class="tr3">
+						<td>5. Dân tộc: ........................................................... <input/><input/></td>
+						<td>6. Ngoại kiều: </td>
+						<td>.............................................</td>
+						<td><input/><input/></td>
+					</tr>
+					<tr class="tr4">
+						<td colspan="4"> 7. Địa chỉ: Số nhà............ Thôn, phố............................................Xã, phường................................................................</td>						
+					</tr>
+					<tr class="tr5">
+						<td>Huyện (Q, Tx) ............................................................ <input/><input/></td>
+						<td>Tỉnh, thành phố </td>
+						<td>.............................................</td>
+						<td><input/><input/></td>
+					</tr>
+					<tr class="tr6">
+						<td>8. Nơi làm việc:................................................ 9. Đối tượng:</td>
+						<td colspan="3">
+							<ol class="ol-tr6">
+								<i><li class="li-tr6">BHYT</li></i><input type="checkbox"/>
+								<i><li>Thu phí</li></i><input type="checkbox"/>
+								<i><li>Miễn phí</li></i><input type="checkbox"/>
+								<i><li>Khác</li></i><input type="checkbox"/>
+							</ol>		
+						</td>	
+					</tr>
+					<tr class="tr7">
+						<td colspan="4" class="td-tr7">10. BHYT giá trị đến ngày ......tháng.......năm.......... Số thẻ BHYT
+							<input class="ip1-tr7"/>
+							<input/>
+							<input/>
+							<input/>
+							<input  class="ip5-tr7"/>
+						</td>
+					</tr>
+					<tr class="tr8">
+						<td colspan="4">11. Họ tên, địa chỉ người nhà khi cần báo tin: ...............................................................................................................</td>
+					</tr>
+					<tr class="tr9">
+						<td colspan="4">.............................................................................................. Điện thoại số ...................................................................							
+						</td>
+					</tr>
+					<tr class="tr10">
+						<td colspan="4">
+						12. Đến khám bệnh lúc: ........ giờ ....... phút ngày........ tháng ....... năm..........
+						</td>
+					</tr>
+					<tr class="tr11">
+						<td colspan="4">
+							<ol class="ol-tr11">
+								<li class="li1-tr11">13. Chuẩn đoán của nơi giới thiệu: ...................................................................................... </li>
+								<li class="li2-tr11">1. Y Tế</li><input class="ip-tr11" type="checkbox"/>
+								<li class="li3-tr11">2. Tự đến</li><input class="" type="checkbox"/>
+							</ol>
+						</td>
+					</tr>
+				</table>
+				
+			</div>
+
+
+
+			<!-- <div class="contain3">			
+				<ol class="ol4">
+					<li><b>II. LÝ DO VÀO VIỆN:</b> ..................................................................................................................................</li>									
+					<li><b>III. HỎI BỆNH:</b></li>
+					<li><b>1. Quá trình bệnh lý:</b> ......................................................................................................................................</li>
+					<li>...........................................................................................................................................................................</li>
+					<li>...........................................................................................................................................................................</li>
+					<li><b>2. Tiền sử bệnh:</b></li>
+					<li>+ Bản thân:........................................................................................................................................................</li>
+					<li>+ Gia đình: .......................................................................................................................................................</li>
+				</ol>																								
+			</div>
+			<div class="contain4">
+				<div class="box1">
+					<ol class="ol5">
+						<li><b>IV. KHÁM BỆNH:</b></li>
+						<li class="li3"><b>1. Toàn thân: </b>...................................................................................................................</li>
+						<li class="li3">...........................................................................................................................................</li>
+						<li class="li3">...........................................................................................................................................</li>				
+						<li class="li3"><b>2. Các bộ phận: </b>...............................................................................................................</li>
+					</ol>											
+				</div>
+				<div class="box2">
+					<div class="box21">
+						<ol class="ol5">
+							<li class="li31">Mạch ....................... lần/ph</li>
+							<li class="li31">Nhiệt độ .........................<sup>0</sup>C</li>
+							<li class="li31">Huyết áp ........./........mmHg</li>
+							<li class="li31">Nhip thở .................. lần/ph</li>
+							<li class="li31">Cân nặng ...................... kg</li>
+						</ol>
+					</div>				
+				</div>
+
+				<ol class="ol6">
+					<li class="">................................................................................................................................................................................</li>
+					<li class="li32">................................................................................................................................................................................</li>
+					<li class="li32">................................................................................................................................................................................</li>
+					<li class="li32"><b>3. Tóm tắt kết quả cận lâm sàng: </b>.......................................................................................................................</li>
+					<li class="li32">................................................................................................................................................................................</li>
+					<li class="li32"><b>4. Chuẩn đoán ban đầu: </b>.....................................................................................................................................</li>
+					<li class="li32"><b>5. Đã xử lý </b><i>(thuốc, chăm sóc)</i>: .............................................................................................................................</li>
+					<li class="li32">................................................................................................................................................................................</li>
+					<li class="li32">................................................................................................................................................................................</li>
+					<li class="li32">................................................................................................................................................................................</li>
+				</ol>
+				
+
+			</div> -->
+
+		</div>
+		<div class="page" contenteditable="true"></div>
+	</body>
+</html>
