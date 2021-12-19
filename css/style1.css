@@ -288,3 +288,52 @@ p {
 .tr67-5 p {
     margin-top: 60px;
 }
+
+/************************* Page 2 **************************************** */
+.box3 {
+    width: 104%;
+    /* border: 1px solid black; */
+    font-size: 16px;
+    margin-top: -18px;
+    /* flex-wrap: wrap; */
+}
+.table3 {
+    border: 1px solid black;
+    /* margin: 1px 1px; */
+    width: 100%;
+}
+/* .tr6 td,
+th {
+    border: 0px solid black;
+    text-align: left;
+    width: 30px;
+} */
+.table3 input {
+    width: 19px;
+    height: 19px;
+    margin-left: 1px;
+    border: 1px solid black;
+}
+/* .table31 {
+    border: 1xp solid black;
+} */
+/* .tr6 .th16 {
+    width: 8px;
+}
+.tr6 .th26 {
+    width: 200px;
+}
+.tr6 .th36 {
+    width: 20px;
+} */
+
+/* .table6 {
+}
+.table6 th,
+td {
+    border: 1px solid black;
+} */
+.loai {
+    text-align: left;
+    width: 200px;
+}
